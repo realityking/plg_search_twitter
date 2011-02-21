@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension version="1.6" type="plugin" group="search" method="upgrade">
-    <name>PLG_SEARCH_TWITTER</name>
+    <name>plg_search_twitter</name>
     <author>Rouven Weßling</author>
     <creationDate>23 January 2011</creationDate>
     <copyright>(C) 2010 - 2011 Rouven Weßling. All rights reserved.</copyright>
-    <license>GNU/GPL Version 2</license>
+    <license>GNU General Public License version 2 or later; see license.txt</license>
     <authorEmail>me@rouvenwessling.de</authorEmail>
     <authorUrl>www.rouvenwessling.de</authorUrl>
     <version>1.0</version>
@@ -15,8 +15,9 @@
     </files>
 
 	<languages>
-		<language tag="en-GB">en-GB.plg_search_twitter.ini</language>
-		<language tag="en-GB">en-GB.plg_search_twitter.sys.ini</language>
+		<language tag="en-GB">language/en-GB.plg_search_twitter.ini</language>
+		<language tag="en-GB">language/en-GB.plg_search_twitter.sys.ini</language>
+		<language tag="de-DE">language/de-DE.plg_search_twitter.sys.ini</language>
 	</languages>
 
     <config>
