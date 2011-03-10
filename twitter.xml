@@ -12,6 +12,7 @@
 
     <files>
         <filename plugin="twitter">twitter.php</filename>
+        <filename>index.html</filename>
     </files>
 
 	<languages>
