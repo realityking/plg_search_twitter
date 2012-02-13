@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extension version="1.6" type="plugin" group="search" method="upgrade">
+<extension version="2.5" type="plugin" group="search" method="upgrade">
     <name>plg_search_twitter</name>
     <author>Rouven Weßling</author>
     <creationDate>23 January 2011</creationDate>

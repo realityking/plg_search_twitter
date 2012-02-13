@@ -1,8 +1,5 @@
 <?php
-// no direct access
 defined( '_JEXEC' ) or die( 'Restricted access' );
-
-jimport('joomla.plugin.plugin');
 
 class plgSearchTwitter extends JPlugin
 {
@@ -47,9 +44,6 @@ class plgSearchTwitter extends JPlugin
 	}
 	
 	function getResults ($text) {
-		jimport('joomla.cache.cache');
-		jimport('joomla.cache.callback');
-
 		$cacheactive = JFactory::getConfig()->getValue('config.caching');
 		$cache = & JFactory::getCache('plg_search_twitter');
 		$cache->setCaching(true);
