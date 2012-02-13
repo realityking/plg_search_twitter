@@ -1,5 +1,10 @@
 <?php
-defined( '_JEXEC' ) or die( 'Restricted access' );
+/**
+ * @copyright	Copyright (C) 2011-2012 Rouven Weßling. All rights reserved.
+ * @license		GNU General Public License version 2 or later; see license.txt
+ */
+
+defined('_JEXEC') or die;
 
 class plgSearchTwitter extends JPlugin
 {
